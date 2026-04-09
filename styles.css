@@ -5,24 +5,84 @@
 
 body{
     background-color: red;
+    background-position:center;
+    background-repeat: no-repeat;
+    /* padding: 10px */
+
+
 }
-.main{
-    background: linear-gradient(to left, rgba(1,1,1,0.6)50%, rgba(0,0,0,0.5)50%), url();
-    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg); */
-    background-position: center;
-}
+
 
 #logo{
     float: left;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
 }
 
-.narbar{
+.navbar{
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    /* background: linear-gradient(to left, rgba(1,1,1,0.6)20%, rgba(0,0,0,0.5)80%), url(); */
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg); */
+    background-position: center;
     display: flex;
-    gap: 200px;
+    gap: 15rem;
+    padding: 10px;
+
+      
 }
 
-.signin{
-    float: right;
+.navbar li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding :8px 5px;
+    font-size: 15px;
+    font-family:Verdana;
+}
+
+.navbar li a:hover{
+    background-color: aqua;
+    color: white;
+}
+
+.nav{
+    text-align: center; 
+    /* background-color: yellow; */
+    padding: 20px 10px 10px 10px;
+    width: 500px;
+    height: 30px;
+    /* list-style-type:none; */
+    /* text-decoration:none; */
+}
+
+.nav li{
+    display: inline-block;
+    padding: 1px;
+    
+}
+
+.sign{
+    text-align: center; 
+    /* background-color: yellow; */
+    padding: 25px;
+    width: 400px;
+    height: 30px;
+    /* text-decoration:none; */
+}
+
+.sign li{
+    display: inline-block;
+    padding: 1px;
+}
+
+.content{
+    padding: 25px;
+    background-color: yellow;
+}
+
+.content img{
+    align-self: center;
 }
